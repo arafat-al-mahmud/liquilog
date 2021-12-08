@@ -1,0 +1,25 @@
+{
+  "name": "liquilog",
+  "version": "1.0.3",
+  "description": "cli tool for generating changelog for liquibase. It will help create a unique changeset inside a changelog with .sql format conforming to liquibase syntax.",
+  "main": "index.js",
+  "bin": {
+    "liquilog": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arafat-al-mahmud/liquilog.git"
+  },
+  "keywords": ["liquibase","migration","database","sql", "cli", "changelog", "changeset","postgresql"],
+  "author": "Arafat Al Mahmud",
+  "license": "ISC",
+  "homepage": "https://github.com/arafat-al-mahmud/liquilog#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "git-user-name": "^2.0.0"
+  }
+}
